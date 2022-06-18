@@ -6,6 +6,7 @@ body {
     margin: 0;
 }
 
+/*navbar*/
 .navbar {
     display: flex;
     background-color: #1f2937;
@@ -24,4 +25,64 @@ ul {
 a {
     text-decoration: none;
     color: white;
+}
+
+/*hero section*/
+
+.hero {
+    display: flex;
+    background-color: #1f2937;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    padding: 1em;
+}
+
+/*middle*/
+.middle {
+    background-color: white;
+    text-align: center;
+}
+
+.coolpix {
+    display: flex;
+    justify-content: center;
+}
+
+/*quote-section*/
+.quote-section {
+    background-color: #e5e7eb;
+    text-align: center;
+    padding: 1em;
+
+}
+
+
+
+/*call to action section*/
+.action {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #3882f6;
+    color: white;
+    margin-right: 10em;
+    margin-left: 10em;
+    margin-top: 5em;
+    margin-bottom: 5em;
+    border-radius: 15px;
+}
+
+.click {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+/*footer*/
+footer {
+    background-color: #1f2937;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    
 }
