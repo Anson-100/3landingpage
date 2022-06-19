@@ -6,14 +6,32 @@ body {
     margin: 0;
 }
 
+button {
+    background-color: #3882f6;
+    color: white;
+    font-weight: 700;
+    border: 3px solid white;
+    border-radius: 5px;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
 /*navbar*/
 .navbar {
     display: flex;
     background-color: #1f2937;
     color: white;
     justify-content: space-between;
-    padding-left: 1em;
-    padding-right: 1em;
+    align-items: center;
+    padding-left: 4em;
+    padding-right: 4em;
+}
+
+#logo {
+    font-size: 24px;
+    font-weight: 700;
 }
 
 ul {
@@ -33,28 +51,69 @@ a {
     display: flex;
     background-color: #1f2937;
     color: white;
+    
     align-items: center;
     justify-content: center;
     padding: 1em;
+    gap: 3em;
+}
+
+h1 {
+    font-size: 48px;
+    font-style: bold; 
+}
+
+#hero-img {
+    height: 200px;
+    width: 275px;
+    border: none;
 }
 
 /*middle*/
 .middle {
     background-color: white;
     text-align: center;
+    
 }
 
 .coolpix {
     display: flex;
     justify-content: center;
+    gap: 1em;
+
+}
+
+img {
+    height: 125px;
+    width: 150px;
+    border-radius: 15px;
+    border: 5px solid #3882f6;
+}
+
+.thumbnail {
+    max-width: 150px;
 }
 
 /*quote-section*/
 .quote-section {
     background-color: #e5e7eb;
     text-align: center;
-    padding: 1em;
+    padding-right: 15em;
+    padding-left: 15em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-family: #1f2937;
+    font-style: italic;
+    font-size:  36px;;
+}
 
+
+
+#signature {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    text-align: right;
 }
 
 
@@ -83,6 +142,5 @@ footer {
     background-color: #1f2937;
     color: white;
     text-align: center;
-    padding: 1em;
-    
+    padding: 1em;  
 }
